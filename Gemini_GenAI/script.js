@@ -18,7 +18,7 @@ const { GoogleGenAI } = require("@google/genai");
 
 const ai = new GoogleGenAI({});
 
-const prompt = `A close up of two people staring at a cryptic drawing on a wall, torchlight flickering.
+ const prompt = `A close up of two people staring at a cryptic drawing on a wall, torchlight flickering.
 A man murmurs, 'This must be it. That's the secret code.' The woman looks at him and whispering excitedly, 'What did you find?'`;
 
 async function main() {
